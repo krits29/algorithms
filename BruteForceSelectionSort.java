@@ -23,12 +23,12 @@ public class BruteForceSelectionSort
             System.out.print(unsorted[i] + " ");
         }
 
-        int[] sorted = new int[] selectionSort(unsorted);
+        //int[] sorted = new int[] selectionSort(unsorted);
 
         System.out.println("sorted");
-        for(int i = 0; i < sorted.length; i++)
+        for(int i = 0; i < selectionSort(unsorted).length; i++)
         {
-            System.out.print(sorted[i] + " ");
+            System.out.print(selectionSort(unsorted)[i] + " ");
         }
     }
 
